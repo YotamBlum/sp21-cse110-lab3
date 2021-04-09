@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=”en”>
+<html lang="en">
     <head>
         <meta charset="UTF-8"/>
         <title>Yotam's Journal</title>
@@ -10,9 +10,9 @@
             <div>Journals</div>
             <nav>
                 <ul>
-                    <li><a href="#Journal 1">Journal 1</a></li>
-                    <li><a href="#Journal 2">Journal 2</a></li>
-                    <li><a href="#Journal 3">Journal 3</a></li>
+                    <li><a href="#Journal1">Journal 1</a></li>
+                    <li><a href="#Journal2">Journal 2</a></li>
+                    <li><a href="#Journal3">Journal 3</a></li>
                 </ul>
             </nav>
         </header>
@@ -21,7 +21,7 @@
             <hr />
 
             <section>
-                <h1 id="#Journal 1">Monday</h1>
+                <h1 id="#Journal1">Monday</h1>
                 <img src="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
                 alt="Plan"
                 width="250">
@@ -43,7 +43,7 @@
             <hr />
 
             <section>
-                <h1 id="#Journal 2">Tuesday</h1>
+                <h1 id="#Journal2">Tuesday</h1>
                 <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MXwxMjA3fDF8MHxzZWFyY2h8MXx8d29ya3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
                 alt="Work"
                 width="250">   
@@ -82,7 +82,7 @@
             <hr />
             
             <section>
-                <h1 id="#Journal 3">Wednesday</h1>
+                <h1 id="#Journal3">Wednesday</h1>
                 <img src="https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
                 alt="Nature"
                 width="250">   
@@ -110,23 +110,23 @@
             <section>
                 <h1>Add a new entry</h1>
                 <form action="/action_page.php" method="get">
-                    <fieldset>
-                        
-                        <form action="/action_page.php" method="get">
-                        <label for="days">Choose your day of the week:</label>
-                        <input list="options" name="days" id="days">
+                    <label for="days">Choose your day of the week:</label>
+                    <input list="options" name="days" id="days">
 
-                        <datalist id="options">
-                            <option value="Monday">
-                            <option value="Tuesday">
-                            <option value="Wednesday">
-                            <option value="Thursday">
-                            <option value="Friday">
-                            <option value="Saturday">
-                            <option value="Sunday">
-                        </datalist>
-                        <input type="submit">
-                        </form>
+                    <datalist id="options">
+                        <option value="Monday">
+                        <option value="Tuesday">
+                        <option value="Wednesday">
+                        <option value="Thursday">
+                        <option value="Friday">
+                        <option value="Saturday">
+                        <option value="Sunday">
+                    </datalist>
+                    <input type="submit">
+                </form>
+
+                <form action="/action_page.php" method="get">
+                    <fieldset>
                         <br><br>
                         <label for="lname">Summary of day</label>
                         <input type="text" id="lname" name="lname"><br><br>
@@ -144,10 +144,10 @@
                             <option value="angry">angry</option>
                             <option value="tired">tired</option>
                         </select>
-
+                        <input type="checkbox" value="Summary" id="Summary">
+                        <label for="Summary"> I want to publish this entry</label>
                     </fieldset>
-                    <input type="checkbox" value="Summary">
-                    <label for="vehicle1"> I want to publish this entry</label><br>
+                    <br><br>
                     <input type="submit" value="Submit">
                     <button type="button">This button is just for fun!</button>
                 </form>
