@@ -7,18 +7,51 @@ body {
   h1 {
     color: navy; /* make all h1 elements navy colored */
     margin-left: 60px; /*shift h1 elements to the right by 20 pixels */
+    width: 120px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    /*
+    border-style
+    border-color
+    border-width
+    border-radius
+    */
+  }
+
+  h2{
+    margin: auto;
+  }
+
+  h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  div{
+    padding: 20px 20px 20px 20px; 
+    
   }
 
   img{
-    padding-left: 0.75cm;
+    
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.25cm;
+    padding-bottom: 0.5cm;
+    
   }
+
   video{
     margin-left: 4mm;
     height: 18vh;
   }
+
   p{
     width: 30em;
   }
+
   fieldset{
     width: 40vw;
     height: 20vh;
