@@ -1,0 +1,10 @@
+/* Applying styling to the background */
+body {
+    background-color: lightblue; /* make the background light blue */
+  }
+  
+  /* Applying styling to the h1 elements */
+  h1 {
+    color: navy; /* make all h1 elements navy colored */
+    margin-left: 20px; /*shift h1 elements to the right by 20 pixels */
+  }
