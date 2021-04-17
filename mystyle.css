@@ -1,6 +1,6 @@
 
 /* Applying styling to the background */
-body {
+* {
     background-color: lightblue; /* make the background light blue */
   }
   
@@ -49,12 +49,9 @@ body {
     margin-top: 60px;
   }
 
+ 
   div{
     padding: 40px 20px 20px 20px; 
-    
-    position: relative;
-    bottom: 40px;
-    left: 10px;
     display: inline-grid;
     grid-template-columns: 400px 400px;
     column-gap: 10px;
@@ -93,4 +90,40 @@ body {
     height: 20vh;
     max-width: 600px;
     max-height: 400px;
+  }
+
+  .first, #second{
+    color: brown;
+  }
+
+  /*
+  #second{
+    color: brown;
+  }
+*/
+  a[target="_blank"]{
+    color: rgb(233, 35, 45);
+  }
+
+  div h5{
+    
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+  }
+
+  fieldset > label{
+    color:darkolivegreen;
+  }
+
+  summary ~ ol{
+    color:rgb(233, 35, 233)
+  }
+
+  label + select{ 
+    background-color: white;
+  }
+
+  p.third{
+    color: lightslategrey;
   }
