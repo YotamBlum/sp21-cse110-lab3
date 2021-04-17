@@ -1,3 +1,4 @@
+
 /* Applying styling to the background */
 body {
     background-color: lightblue; /* make the background light blue */
@@ -77,6 +78,7 @@ body {
   p{
     width: 30em;
     display: inline-block;
+    font-family: 'Zen Dots', cursive;
   }
 
   section{
