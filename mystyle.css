@@ -6,22 +6,25 @@ body {
   /* Applying styling to the h1 elements */
   h1 {
     color: navy; /* make all h1 elements navy colored */
-    margin-left: 60px; /*shift h1 elements to the right by 20 pixels */
+    margin: auto;
     width: 120px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    /*
-    border-style
-    border-color
-    border-width
-    border-radius
-    */
+    text-align: center;
   }
 
   h2{
-    margin: auto;
+    argin-left: 60px; /*shift h1 elements to the right by 20 pixels */
+    color: green;
+    text-decoration: green wavy underline;
+  }
+
+  h4{
+    position: absolute;
+    top: 10px;
+    left: 10px;
   }
 
   h5{
@@ -29,8 +32,31 @@ body {
     margin-bottom: 10px;
   }
 
+  button:hover {
+    color: blue;
+  }
+
+  input:hover {
+    color: blue;
+  }
+
+  input:active {
+    color: red;
+  }
+
+  nav{
+    margin-top: 60px;
+  }
+
   div{
-    padding: 20px 20px 20px 20px; 
+    padding: 40px 20px 20px 20px; 
+    
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    display: inline-grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 10px;
     
   }
 
@@ -50,6 +76,14 @@ body {
 
   p{
     width: 30em;
+    display: inline-block;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   fieldset{
